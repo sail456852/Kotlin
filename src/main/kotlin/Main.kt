@@ -17,7 +17,7 @@ fun main() {
 
     // Create header row
     val headerRow = sheet.createRow(0)
-    val headers = arrayOf("Name", "Age", "Email")
+    val headers = arrayOf("name", "age", "email")
     for (i in headers.indices) {
         val cell = headerRow.createCell(i)
         cell.setCellValue(headers[i])
@@ -28,23 +28,12 @@ fun main() {
         val jsonObject = jsonArray.getJSONObject(i)
         val dataRow = sheet.createRow(i + 1)
 
-        val name = jsonObject.getString("name")
-        val age = jsonObject.getInt("age")
-        val email = jsonObject.getString("email")
-
-        val nameCell = dataRow.createCell(0)
-        nameCell.setCellValue(name)
-
-        val ageCell = dataRow.createCell(1)
-        ageCell.setCellValue(age.toDouble())
-
-        val emailCell = dataRow.createCell(2)
-        emailCell.setCellValue(email)
-    }
-
-    // Auto-size columns
-    for (i in headers.indices) {
-        sheet.autoSizeColumn(i)
+        for(column in headers.indices){
+            sheet.autoSizeColumn(column)
+            val cell = dataRow.createCell(column)
+            val any = jsonObject.get(headers[column])
+            cell.setCellValue(any.toString())
+        }
     }
 
     // Save Excel file
