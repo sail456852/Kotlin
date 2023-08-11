@@ -1,0 +1,28 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "email": "johndoe@example.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["programming", "reading", "traveling"],
+    "isStudent": false
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "email": "janesmith@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94101"
+    },
+    "interests": ["painting", "music", "hiking"],
+    "isStudent": true
+  }
+]
