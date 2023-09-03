@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.10"
+    kotlin("jvm") version "1.8.21"
     application
 }
 
@@ -17,6 +17,8 @@ dependencies {
     implementation("org.apache.poi:poi:5.0.0")
     implementation("org.apache.poi:poi-ooxml:5.0.0")
     implementation("org.json:json:20210307")
+
+    implementation("javax.mail:mail:1.4.7")
 }
 
 tasks.test {

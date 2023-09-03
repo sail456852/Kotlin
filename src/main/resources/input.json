@@ -1,28 +1,103 @@
 [
   {
-    "name": "John Doe",
-    "age": 30,
-    "email": "johndoe@example.com",
-    "address": {
-      "street": "123 Main St",
-      "city": "New York",
-      "state": "NY",
-      "zipcode": "10001"
+    "Place": {
+      "geo": [
+        55.95206,
+        -3.19648
+      ],
+      "feature": "PPLA",
+      "name": "Edinburgh",
+      "country": "GB",
+      "pop": 464990
     },
-    "interests": ["programming", "reading", "traveling"],
-    "isStudent": false
-  },
-  {
-    "name": "Jane Smith",
-    "age": 25,
-    "email": "janesmith@example.com",
-    "address": {
-      "street": "456 Elm St",
-      "city": "San Francisco",
-      "state": "CA",
-      "zipcode": "94101"
-    },
-    "interests": ["painting", "music", "hiking"],
-    "isStudent": true
+    "Sources": [
+      {
+        "name": "Citizen Weather Observer Program (CWOP/APRS)",
+        "url": "http://wxqa.com/",
+        "pols": [
+          "weather"
+        ],
+        "logo": ""
+      },
+      {
+        "name": "Air Quality in Scotland - latest data, forecasts and air quality information",
+        "url": "https://www.scottishairquality.scot/",
+        "pols": null,
+        "logo": "UK-Scotland.png"
+      },
+      {
+        "name": "UK-AIR, air quality information resource - Defra, UK",
+        "url": "http://uk-air.defra.gov.uk/",
+        "pols": null,
+        "logo": "UK-Department-for-environment-food-and-rural-affairs.png"
+      }
+    ],
+    "Stations": [
+      {
+        "Name": "Edinburgh Tower Street, United Kingdom",
+        "Latitude": 55.976262,
+        "Longitude": -3.163964
+      },
+      {
+        "Name": "Edinburgh St Leonards, United Kingdom",
+        "Latitude": 55.945589,
+        "Longitude": -3.182186
+      },
+      {
+        "Name": "Edinburgh Currie, United Kingdom",
+        "Latitude": 55.896909,
+        "Longitude": -3.31966
+      },
+      {
+        "Name": "Edinburgh Salamander St, United Kingdom",
+        "Latitude": 55.974594,
+        "Longitude": -3.161455
+      },
+      {
+        "Name": "Auchencorth Moss, United Kingdom",
+        "Latitude": 55.79216,
+        "Longitude": -3.2429
+      },
+      {
+        "Name": "Edinburgh St John's Road, United Kingdom",
+        "Latitude": 55.9425,
+        "Longitude": -3.281111
+      },
+      {
+        "Name": "Edinburgh Glasgow Road, United Kingdom",
+        "Latitude": 55.939026,
+        "Longitude": -3.392727
+      },
+      {
+        "Name": "Auchencorth Moss, United Kingdom",
+        "Latitude": 55.79216,
+        "Longitude": -3.2429
+      },
+      {
+        "Name": "Fife Kirkcaldy, United Kingdom",
+        "Latitude": 56.124331,
+        "Longitude": -3.141347
+      },
+      {
+        "Name": "Edinburgh Queensferry Road, United Kingdom",
+        "Latitude": 55.960497,
+        "Longitude": -3.30325
+      },
+      {
+        "Name": "Edinburgh Queen Street, United Kingdom",
+        "Latitude": 55.953837,
+        "Longitude": -3.205481
+      },
+      {
+        "Name": "East Lothian Musselburgh N High St, United Kingdom",
+        "Latitude": 55.944008,
+        "Longitude": -3.059223
+      },
+      {
+        "Name": "Edinburgh St Leonards, United Kingdom",
+        "Latitude": 55.945589,
+        "Longitude": -3.182186
+      }
+    ]
   }
 ]
